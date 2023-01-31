@@ -86,10 +86,6 @@ public class FollowerResource {
         followerRepository.deleteByFollowerAndUser(followerId, userId);
 
         return Response.status(Response.Status.NO_CONTENT).build();
-
-
-
     }
-
 
 }
